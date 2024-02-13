@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.admn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#backImage {
+  background-image: url("https://media.istockphoto.com/id/1169630303/photo/blue-textured-background.webp?b=1&s=170667a&w=0&k=20&c=tI2xFhXqXFqMM0IvxSYY3F7LIwv450h2ch3yD-lZ9HU=");
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+
+  .formDiv {
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+    box-shadow: 0 0 10px 3px gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      .formInput {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+
+        .oneInp{
+            width: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            input{
+                padding: 10px;
+                width: 50%;
+            }
+            label{
+                display: flex;
+                justify-content: start;
+            }
+        }
+      }
+    }
+  }
+}
+
+#newProducts{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  
+    .box {
+      margin-top: 25px;
+      position: relative;
+      .boxDiv {
+        box-shadow: 0 0 8px black;
+  
+        img {
+          width: 100%;
+          height: auto;
+        }
+        .boxText {
+          margin-top: 10px;
+          padding: 25px;
+  
+          .twoBtn{
+              #delete{
+                 background-color: red;
+                 color: white;
+                 border: none;
+
+                 padding: 5px;
+  
+                  
+              }
+          }
+          
+        }
+      }
+    }
+}
+table{
+  width: 80%;
+  margin: 30px auto;
+}
+table,th,td{
+  border: 1px solid black;
+}
+th,td{
+  padding: 10px;
+
+}
+td{
+  overflow: hidden;
+  .photo{
+    width: 350px;
+  }
+}

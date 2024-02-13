@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wish{
+    display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+  .box {
+    margin-top: 25px;
+    position: relative;
+    .boxDiv {
+      box-shadow: 0 0 8px black;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+      .boxText {
+        margin-top: 10px;
+        padding: 25px;
+
+        .twoBtn{
+            display: flex;
+            justify-content: center;
+            #wish{
+               padding: 10px;
+               border: none;
+               background-color: red;
+               color: white;
+               cursor: pointer;
+            }
+        }
+      }
+    }
+  }
+}
